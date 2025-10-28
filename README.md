@@ -5,6 +5,7 @@
 - 📫 How to reach me: kowaga. on discord
 - 😄 Pronouns: She/They
 - ⚡ Fun fact: am gae
+- Planning to go around repo's fixing minor spelling mistakes in their README.md's
 
 <!---
 Kowagaa/Kowagaa is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
