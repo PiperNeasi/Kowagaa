@@ -3,8 +3,6 @@
 - 🌱 I’m currently learning C# & Ren'Py
 - 💞️ I’m looking to collaborate on Games
 - 📫 How to reach me: kowaga. on discord
-- 😄 Pronouns: She/They
-- ⚡ Fun fact: am gae
 - Planning to go around repo's fixing minor spelling mistakes in their README.md's
 
 <!---
