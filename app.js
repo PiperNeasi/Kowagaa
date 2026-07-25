@@ -50,7 +50,8 @@ var options1 = {
     },
     xaxis: {
         categories: [
-            "6/2026"
+            "6/2026",
+            "7/2026"
         ]
     }
 };
@@ -105,7 +106,8 @@ var options2 = {
     },
     xaxis: {
         categories: [
-            "6/2026"
+            "6/2026",
+            "7/2026"
         ]
     }
 };
@@ -165,7 +167,8 @@ var options3 = {
     },
     xaxis: {
         categories: [
-            "6/2026"
+            "6/2026",
+            "7/2026"
         ]
     }
 };
