@@ -1,18 +1,2 @@
-### Who am I?
-I'm a girlie who wants to work in game dev, my name is Lexie though I usually go by Kowaga
-### What do I have experience in?
-
-- Unity
-- Godot
-- Ren'py
-
-### What can I code in?
-
-- Python
-- Ren'Py
-- Rust
-- C#
-- C++
-- GDScript
-- LOLCODE
-- Brainfuck
+Thanks to @ModerNik for fixing the issue with the charts, I was low-key going crazy over it
+(even though that was a fix i had already tried...)
