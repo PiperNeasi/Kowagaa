@@ -169,7 +169,9 @@ var options3 = {
         ]
     }
 };
-const chart1 = new ApexChart(document.querySelector("#chart1"), options1);
+const chart1 = new ApexCharts(document.querySelector("#chart1"), options1);
 chart1.render();
-
-
+const chart2 = new ApexCharts(document.querySelector("#chart2"), options2);
+chart2.render();
+const chart3 = new ApexCharts(document.querySelector("#chart3"), options3);
+chart3.render();
