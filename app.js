@@ -1,5 +1,9 @@
 //import ApexCharts from 'apexcharts/ssr'
 // Languages chart
+const categories = [
+        "6/2026",
+        "7/2026"
+    ];
 var options1 = {
     chart: {
         height: 280,
@@ -22,6 +26,9 @@ var options1 = {
             data: [3, 3]
         }
     ],
+    xaxis: {
+        categories: categories
+    },
     fill: {
     type: "gradient",
     gradient: {
@@ -47,12 +54,6 @@ var options1 = {
             ]
         ]
     }
-    },
-    xaxis: {
-        categories: [
-            "6/2026",
-            "7/2026"
-        ]
     }
 };
 //Holo Chart
@@ -78,8 +79,11 @@ var options2 = {
             data: [3, 11]
         }
     ],
+    xaxis: {
+        categories: categories
+    },
     fill: {
-    type: "gradient",
+        type: "gradient",
     gradient: {
         shadeIntensity: 1,
         type: "vertical",
@@ -103,12 +107,6 @@ var options2 = {
             ]
         ]
     }
-    },
-    xaxis: {
-        categories: [
-            "6/2026",
-            "7/2026"
-        ]
     }
 };
 
@@ -139,6 +137,9 @@ var options3 = {
             data: [1, 1]
         }
     ],
+    xaxis: {
+        categories: categories
+    },
     fill: {
     type: "gradient",
     gradient: {
@@ -164,12 +165,6 @@ var options3 = {
             ]
         ]
     }
-    },
-    xaxis: {
-        categories: [
-            "6/2026",
-            "7/2026"
-        ]
     }
 };
 const chart1 = new ApexCharts(document.querySelector("#chart1"), options1);
