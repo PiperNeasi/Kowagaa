@@ -4,6 +4,25 @@ const categories = [
         "6/2026",
         "7/2026"
     ];
+const colorStops = [
+        [
+            {
+                offset: 0,
+                color: "#348aeb",
+                opacity: 10.8
+            },
+            {
+                offset: 70,
+                color: "#6510F8",
+                opacity: 0.2
+            },
+            {
+                offset: 97,
+                color: "#3e0f8e",
+                opacity: 0.0
+            }
+        ]
+    ]
 var options1 = {
     chart: {
         height: 280,
@@ -28,33 +47,15 @@ var options1 = {
     ],
     xaxis: {
         categories: categories
-    }/*,
+    },
     fill: {
     type: "gradient",
     gradient: {
         shadeIntensity: 1,
         type: "vertical",
-        colorStops: [
-            [
-                {
-                    offset: 0,
-                    color: "#348aeb",
-                    opacity: 10.8
-                },
-                {
-                    offset: 70,
-                    color: "#6510F8",
-                    opacity: 0.2
-                },
-                {
-                    offset: 97,
-                    color: "#3e0f8e",
-                    opacity: 0.0
-                }
-            ]
-        ]
+        colorStops: colorStops * 3
     }
-    }*/
+    }
 };
 //Holo Chart
 var options2 = {
@@ -81,33 +82,15 @@ var options2 = {
     ],
     xaxis: {
         categories: categories
-    }/*,
+    },
     fill: {
         type: "gradient",
     gradient: {
         shadeIntensity: 1,
         type: "vertical",
-        colorStops: [
-            [
-                {
-                    offset: 0,
-                    color: "#348aeb",
-                    opacity: 10.8
-                },
-                {
-                    offset: 70,
-                    color: "#6510F8",
-                    opacity: 0.2
-                },
-                {
-                    offset: 97,
-                    color: "#3e0f8e",
-                    opacity: 0.0
-                }
-            ]
-        ]
+        colorStops: colorStops * 3
     }
-    }*/
+    }
 };
 
 //Type Chart
@@ -139,33 +122,15 @@ var options3 = {
     ],
     xaxis: {
         categories: categories
-    }/*,
+    },
     fill: {
     type: "gradient",
     gradient: {
         shadeIntensity: 1,
         type: "vertical",
-        colorStops: [
-            [
-                {
-                    offset: 0,
-                    color: "#348aeb",
-                    opacity: 10.8
-                },
-                {
-                    offset: 70,
-                    color: "#6510F8",
-                    opacity: 0.2
-                },
-                {
-                    offset: 97,
-                    color: "#3e0f8e",
-                    opacity: 0.0
-                }
-            ]
-        ]
+        colorStops: colorStops * 3
     }
-    }*/
+    }
 };
 const chart1 = new ApexCharts(document.querySelector("#chart1"), options1);
 chart1.render();
