@@ -28,7 +28,7 @@ var options1 = {
     ],
     xaxis: {
         categories: categories
-    },
+    }/*,
     fill: {
     type: "gradient",
     gradient: {
@@ -54,7 +54,7 @@ var options1 = {
             ]
         ]
     }
-    }
+    }*/
 };
 //Holo Chart
 var options2 = {
@@ -81,7 +81,7 @@ var options2 = {
     ],
     xaxis: {
         categories: categories
-    },
+    }/*,
     fill: {
         type: "gradient",
     gradient: {
@@ -107,7 +107,7 @@ var options2 = {
             ]
         ]
     }
-    }
+    }*/
 };
 
 //Type Chart
@@ -139,7 +139,7 @@ var options3 = {
     ],
     xaxis: {
         categories: categories
-    },
+    }/*,
     fill: {
     type: "gradient",
     gradient: {
@@ -165,7 +165,7 @@ var options3 = {
             ]
         ]
     }
-    }
+    }*/
 };
 const chart1 = new ApexCharts(document.querySelector("#chart1"), options1);
 chart1.render();
