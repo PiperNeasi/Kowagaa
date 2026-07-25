@@ -11,15 +11,15 @@ var options1 = {
     series: [
         {
             name: "Snom Cards owned",
-            data: [4]
+            data: [4, 12]
         },
         {
             name: "English Snom Cards owned",
-            data: [1]
+            data: [1, 9]
         },
         {
             name: "Spanish Snom Cards owned",
-            data: [3]
+            data: [3, 3]
         }
     ],
     fill: {
@@ -66,15 +66,15 @@ var options2 = {
     series: [
         {
             name: "Snom Cards owned",
-            data: [4]
+            data: [4, 12]
         },
         {
             name: "Holo Snom Cards owned",
-            data: [1]
+            data: [1, 1]
         },
         {
             name: "Non-Holo Snom Cards owned",
-            data: [3]
+            data: [3, 11]
         }
     ],
     fill: {
@@ -122,19 +122,19 @@ var options3 = {
     series: [
         {
             name: "Snom Cards owned",
-            data: [4]
+            data: [4, 12]
         },
         {
             name: "Snom 42/132 [Mega Evolution]",
-            data: [2]
+            data: [2, 10]
         },
         {
             name: "Snom 45/162 [Temporal Forces]",
-            data: [1]
+            data: [1, 1]
         },
         {
             name: "Snom 52/217 [Ascended Heroes]",
-            data: [1]
+            data: [1, 1]
         }
     ],
     fill: {
