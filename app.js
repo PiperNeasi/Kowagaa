@@ -128,7 +128,7 @@ var options3 = {
     gradient: {
         shadeIntensity: 1,
         type: "vertical",
-        colorStops: colorStops * 3
+        colorStops: colorStops * 4
     }
     }
 };
