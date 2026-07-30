@@ -33,15 +33,15 @@ var options1 = {
     },
     series: [
         {
-            name: "Snom Cards owned",
-            data: [4, 12]
+            name: "Snom Cards Owned",
+            data: [4, 13]
         },
         {
-            name: "English Snom Cards owned",
-            data: [1, 9]
+            name: "English Snom Cards Owned",
+            data: [1, 10]
         },
         {
-            name: "Spanish Snom Cards owned",
+            name: "Spanish Snom Cards Owned",
             data: [3, 3]
         }
     ],
@@ -68,15 +68,19 @@ var options2 = {
     },
     series: [
         {
-            name: "Snom Cards owned",
-            data: [4, 12]
+            name: "Snom Cards Owned",
+            data: [4, 13]
         },
         {
-            name: "Holo Snom Cards owned",
+            name: "Reverse Holo Snom Cards Owned",
             data: [1, 1]
         },
         {
-            name: "Non-Holo Snom Cards owned",
+            name: "Illustration Rare Snom Cards Owned",
+            data: [0, 1]
+        },
+        {
+            name: "Other Snom Cards Owned",
             data: [3, 11]
         }
     ],
@@ -88,7 +92,7 @@ var options2 = {
     gradient: {
         shadeIntensity: 1,
         type: "vertical",
-        colorStops: colorStops * 3
+        colorStops: colorStops * 4
     }
     }
 };
@@ -104,8 +108,8 @@ var options3 = {
     },
     series: [
         {
-            name: "Snom Cards owned",
-            data: [4, 12]
+            name: "Snom Cards Owned",
+            data: [4, 13]
         },
         {
             name: "Snom 42/132 [Mega Evolution]",
@@ -118,6 +122,10 @@ var options3 = {
         {
             name: "Snom 52/217 [Ascended Heroes]",
             data: [1, 1]
+        },
+        {
+            name: "Snom 168/162 [Temporal Forces",
+            data: [0, 1]
         }
     ],
     xaxis: {
@@ -128,7 +136,7 @@ var options3 = {
     gradient: {
         shadeIntensity: 1,
         type: "vertical",
-        colorStops: colorStops * 4
+        colorStops: colorStops * 5
     }
     }
 };
