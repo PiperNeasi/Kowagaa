@@ -34,15 +34,15 @@ var options1 = {
     series: [
         {
             name: "Snom Cards Owned",
-            data: [4, 13]
+            data: [4, 13, 13]
         },
         {
             name: "English Snom Cards Owned",
-            data: [1, 10]
+            data: [1, 10, 10]
         },
         {
             name: "Spanish Snom Cards Owned",
-            data: [3, 3]
+            data: [3, 3, 3]
         }
     ],
     xaxis: {
@@ -69,19 +69,19 @@ var options2 = {
     series: [
         {
             name: "Snom Cards Owned",
-            data: [4, 13]
+            data: [4, 13, 13]
         },
         {
             name: "Reverse Holo Snom Cards Owned",
-            data: [1, 1]
+            data: [1, 1, 1]
         },
         {
             name: "Illustration Rare Snom Cards Owned",
-            data: [0, 1]
+            data: [0, 1, 1]
         },
         {
             name: "Other Snom Cards Owned",
-            data: [3, 11]
+            data: [3, 11, 11]
         }
     ],
     xaxis: {
@@ -109,23 +109,23 @@ var options3 = {
     series: [
         {
             name: "Snom Cards Owned",
-            data: [4, 13]
+            data: [4, 13, 13]
         },
         {
             name: "Snom 42/132 [Mega Evolution]",
-            data: [2, 10]
+            data: [2, 10, 10]
         },
         {
             name: "Snom 45/162 [Temporal Forces]",
-            data: [1, 1]
+            data: [1, 1, 1]
         },
         {
             name: "Snom 52/217 [Ascended Heroes]",
-            data: [1, 1]
+            data: [1, 1, 1]
         },
         {
-            name: "Snom 168/162 [Temporal Forces",
-            data: [0, 1]
+            name: "Snom 168/162 [Temporal Forces]",
+            data: [0, 1, 1]
         }
     ],
     xaxis: {
