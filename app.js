@@ -2,7 +2,8 @@
 // Languages chart
 const categories = [
         "6/2026",
-        "7/2026"
+        "7/2026",
+        "8/2026"
     ];
 const colorStops = [
         [
